@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.json())
 
-mongoose.connect("mongodb+srv://pdd2498:QfR0HjqaAz3laXlA@cluster0.zia4lho.mongodb.net/")
+mongoose.connect("mongodb+srv://pdd2498:7Sx7Aloz3XQ0SlGf@cluster0.zia4lho.mongodb.net/")
 .then(()=> console.log("success"))
 .catch(()=> console.log("fails"));
 app.use(jobRouters);
