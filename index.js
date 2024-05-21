@@ -14,4 +14,4 @@ app.use(jobRouters);
 
 
 
-app.listen(6060 , ()=>console.log("server is up and runing at post 8080"));
+app.listen(10000 , ()=>console.log("server is up and runing at post 8080"));
